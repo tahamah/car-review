@@ -4,6 +4,7 @@ import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
 import Reviews from './components/Reviews/Reviews'
 import Blogs from './components/Blogs/Blogs'
+import NotFound from './components/NotFound/NotFound'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="reviews" element={<Reviews />} />
                 <Route path="blogs" element={<Blogs />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
         </>

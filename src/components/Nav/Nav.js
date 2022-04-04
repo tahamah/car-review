@@ -32,7 +32,10 @@ const Nav = () => {
                     >
                         REVIEWS
                     </CustomLink>
-                    <CustomLink to="/" className="mr-5 hover:text-green-500 ">
+                    <CustomLink
+                        to="allo"
+                        className="mr-5 hover:text-green-500 "
+                    >
                         DASHBOARD
                     </CustomLink>
                     <CustomLink
