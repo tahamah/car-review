@@ -1,4 +1,5 @@
 import ChartBar from '../ChartBar/ChartBar'
+import SpecifiedDomainRadarChart from '../SpecifiedDomainRadarChart/SpecifiedDomainRadarChart'
 import StackedAreaChart from '../StackedAreaChart/StackedAreaChart'
 import ThreeLevelPieChart from '../ThreeLevelPieChart/ThreeLevelPieChart'
 import TwoLevelPieChart from '../TwoLevelPieChart/TwoLevelPieChart'
@@ -43,12 +44,12 @@ const DashBoard = () => {
                 </h1>
             </div>
             <div className="m-6">
-                <TwoLevelPieChart></TwoLevelPieChart>
+                <SpecifiedDomainRadarChart></SpecifiedDomainRadarChart>
                 <h1
                     className="text-gray-500 text-3xl text-center
                  title-font font-medium mb-1"
                 >
-                    Two Level PieChart
+                    Specified Domain Radar Chart
                 </h1>
             </div>
         </div>
