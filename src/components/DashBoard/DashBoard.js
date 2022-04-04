@@ -5,7 +5,7 @@ const DashBoard = () => {
     return (
         <div className="md:flex flex-wrap justify-center items-center gap-12">
             <div className="m-6 ">
-                <StackedAreaChart></StackedAreaChart>
+                <StackedAreaChart />
                 <h1
                     className="text-gray-500 text-3xl text-center
                  title-font font-medium pt-10"
@@ -14,7 +14,7 @@ const DashBoard = () => {
                 </h1>
             </div>
             <div className="m-6">
-                <TwoLevelPieChart></TwoLevelPieChart>
+                <TwoLevelPieChart />
                 <h1
                     className="text-gray-500 text-3xl text-center
                  title-font font-medium mb-1"
@@ -23,7 +23,7 @@ const DashBoard = () => {
                 </h1>
             </div>
             <div className="m-6 ">
-                <StackedAreaChart></StackedAreaChart>
+                <StackedAreaChart />
                 <h1
                     className="text-gray-500 text-3xl text-center
                  title-font font-medium pt-10"
