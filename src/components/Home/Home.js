@@ -1,6 +1,5 @@
 import React from 'react'
 import HomeBlog from '../HomeBlog/HomeBlog'
-import HomeReview from '../HomeReview/HomeReview'
 import HomeReviews from '../HomeReviews/HomeReviews'
 
 const Home = () => {
