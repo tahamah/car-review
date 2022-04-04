@@ -1,3 +1,4 @@
+import ChartBar from '../ChartBar/ChartBar'
 import StackedAreaChart from '../StackedAreaChart/StackedAreaChart'
 import ThreeLevelPieChart from '../ThreeLevelPieChart/ThreeLevelPieChart'
 import TwoLevelPieChart from '../TwoLevelPieChart/TwoLevelPieChart'
@@ -24,12 +25,12 @@ const DashBoard = () => {
                 </h1>
             </div>
             <div className="m-6 ">
-                <StackedAreaChart />
+                <ChartBar />
                 <h1
                     className="text-gray-500 text-3xl text-center
                  title-font font-medium pt-10"
                 >
-                    Stacked Area Chart
+                    Mix Bar Chart
                 </h1>
             </div>
             <div className="m-6">
