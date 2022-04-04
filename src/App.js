@@ -1,9 +1,12 @@
 import './App.css'
+import Home from './components/Home/Home'
+import Nav from './components/Nav/Nav'
 
 function App() {
     return (
         <div>
-            <h1>hello world</h1>
+            <Nav></Nav>
+            <Home></Home>
         </div>
     )
 }
