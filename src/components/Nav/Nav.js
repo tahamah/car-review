@@ -33,7 +33,7 @@ const Nav = () => {
                         REVIEWS
                     </CustomLink>
                     <CustomLink
-                        to="allo"
+                        to="dashboard"
                         className="mr-5 hover:text-green-500 "
                     >
                         DASHBOARD
