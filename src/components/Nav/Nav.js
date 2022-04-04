@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import CustomLink from '../CustomLink/CustomLink'
 
 const Nav = () => {
     return (
@@ -22,18 +23,21 @@ const Nav = () => {
                     <span className="ml-3 text-xl">Tailblogs</span>
                 </Link>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex font-semibold flex-wrap items-center text-base justify-center">
-                    <Link to="/" className="mr-5 hover:text-green-500 ">
+                    <CustomLink
+                        to="reviews"
+                        className="mr-5 hover:text-green-500 "
+                    >
                         REVIEWS
-                    </Link>
-                    <Link to="/" className="mr-5 hover:text-green-500 ">
+                    </CustomLink>
+                    <CustomLink to="/" className="mr-5 hover:text-green-500 ">
                         DASHBOARD
-                    </Link>
-                    <Link to="/" className="mr-5 hover:text-green-500 ">
+                    </CustomLink>
+                    <CustomLink to="/" className="mr-5 hover:text-green-500 ">
                         BLOG
-                    </Link>
-                    <Link to="/" className="mr-5 hover:text-green-500 ">
+                    </CustomLink>
+                    <CustomLink to="/" className="mr-5 hover:text-green-500 ">
                         HOME
-                    </Link>
+                    </CustomLink>
                 </nav>
                 <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
                     Login
