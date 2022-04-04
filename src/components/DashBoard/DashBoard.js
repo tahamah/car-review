@@ -1,4 +1,5 @@
 import StackedAreaChart from '../StackedAreaChart/StackedAreaChart'
+import ThreeLevelPieChart from '../ThreeLevelPieChart/ThreeLevelPieChart'
 import TwoLevelPieChart from '../TwoLevelPieChart/TwoLevelPieChart'
 
 const DashBoard = () => {
@@ -14,12 +15,12 @@ const DashBoard = () => {
                 </h1>
             </div>
             <div className="m-6">
-                <TwoLevelPieChart />
+                <ThreeLevelPieChart />
                 <h1
                     className="text-gray-500 text-3xl text-center
                  title-font font-medium mb-1"
                 >
-                    Two Level PieChart
+                    Three Level PieChart
                 </h1>
             </div>
             <div className="m-6 ">

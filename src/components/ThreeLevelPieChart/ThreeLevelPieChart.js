@@ -2,27 +2,36 @@ import React from 'react'
 import { Pie, PieChart, Tooltip } from 'recharts'
 import useChartData from '../../hooks/useChartData'
 
-export default function TwoLevelPieChart() {
+export default function ThreeLevelPieChart() {
     const [chartData] = useChartData()
     return (
         <PieChart width={400} height={400}>
             <Tooltip />
             <Pie
                 data={chartData}
-                dataKey="investment"
+                dataKey="sell"
                 cx={200}
                 cy={200}
-                outerRadius={55}
+                outerRadius={50}
                 fill="#8884d8"
             />
             <Pie
                 data={chartData}
-                dataKey="sell"
+                dataKey="investment"
                 cx={200}
                 cy={200}
-                innerRadius={70}
-                outerRadius={90}
+                innerRadius={60}
+                outerRadius={80}
                 fill="#fdcb6e"
+            />
+            <Pie
+                data={chartData}
+                dataKey="revenue"
+                cx={200}
+                cy={200}
+                innerRadius={90}
+                outerRadius={110}
+                fill="#82ca9d"
                 label
             />
         </PieChart>
