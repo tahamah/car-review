@@ -12,7 +12,7 @@ const HomeReviews = () => {
                 <span className="inline-block h-1 w-44 rounded bg-green-500 mt-6 mb-4"></span>
             </div>
             <div className="container px-5 py-24 mx-auto">
-                <div className="flex justify-center gap-10">
+                <div className="md:flex justify-center gap-10">
                     {firstThreeReviews?.map((review) => (
                         <HomeReview
                             key={review._id}
