@@ -3,7 +3,7 @@ import React from 'react'
 const Review = ({ review }) => {
     const { name, comment, img, job, firstFourStar, lastOneStar } = review
     return (
-        <div className="md:w-3/4 lg:mb-0 mb-6 p-4">
+        <div className="md:w-3/4 lg:mb-0 mx-auto mb-6 p-4">
             <div className="h-full text-center">
                 <img
                     alt="testimonial"

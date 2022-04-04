@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import useReviews from '../../hooks/useReviews'
 import HomeReview from '../HomeReview/HomeReview'
 
@@ -21,6 +22,11 @@ const HomeReviews = () => {
                     ))}
                 </div>
             </div>
+            <Link className="flex justify-center" to="reviews">
+                <button className="py-2 px-8 rounded-full mt-4 bg-blue-500 text-white font-semibold  shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+                    See All Reviews
+                </button>
+            </Link>
         </section>
     )
 }
