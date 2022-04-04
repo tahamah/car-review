@@ -1,9 +1,9 @@
 import React from 'react'
 
-const HomeReview = ({ review }) => {
+const Review = ({ review }) => {
     const { name, comment, img, job, firstFourStar, lastOneStar } = review
     return (
-        <div className="lg:w-1/4 lg:mb-0 mb-6 p-4">
+        <div className="md:w-3/4 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
                 <img
                     alt="testimonial"
@@ -75,4 +75,4 @@ const HomeReview = ({ review }) => {
     )
 }
 
-export default HomeReview
+export default Review
