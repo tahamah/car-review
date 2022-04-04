@@ -8,7 +8,9 @@ const HomeReviews = () => {
     const firstThreeReviews = reviews.slice(0, 3)
     return (
         <section className="text-gray-600 body-font">
-            <h1 className=" text-center mt-44 text-4xl">Customer Reviews</h1>
+            <h1 className=" text-center mt-44 text-4xl">
+                Customer Reviews: (0{firstThreeReviews.length})
+            </h1>
             <div className="flex justify-center">
                 <span className="inline-block h-1 w-44 rounded bg-green-500 mt-6 mb-4"></span>
             </div>
