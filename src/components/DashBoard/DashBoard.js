@@ -1,14 +1,14 @@
-import LineChart from '../LineChart/LineChart'
 import StackedAreaChart from '../StackedAreaChart/StackedAreaChart'
+import TwoLevelPieChart from '../TwoLevelPieChart/TwoLevelPieChart'
 
 const DashBoard = () => {
     return (
-        <div className="md:flex justify-center gap-12">
+        <div className="md:flex justify-center items-center gap-12">
             <div className="m-6 ">
-                <LineChart></LineChart>
+                <StackedAreaChart></StackedAreaChart>
             </div>
             <div className="m-6">
-                <StackedAreaChart></StackedAreaChart>
+                <TwoLevelPieChart></TwoLevelPieChart>
             </div>
         </div>
     )
