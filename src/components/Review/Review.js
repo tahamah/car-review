@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Review = ({ review }) => {
-    const { name, comment, img, job, firstFourStar, lastOneStar } = review
+    const { name, comment, img, job, firstFourStar, lastOneStar, rating } =
+        review
     return (
         <div className="md:w-3/4 lg:mb-0 mx-auto mb-6 p-4">
             <div className="h-full text-center">
@@ -11,9 +12,10 @@ const Review = ({ review }) => {
                     src={img}
                 />
                 <p className="leading-relaxed">{comment.slice(0, 150)}</p>
-                <span className="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                <span className="inline-block h-1 w-10 rounded bg-green-500 mt-2 mb-6"></span>
+                <p className="text-gray-500">{rating} stars </p>
                 <div className="flex justify-center">
-                    <div className="flex">
+                    <div className="flex ">
                         <svg
                             className=" text-yellow-500 "
                             fill="currentColor"
@@ -66,6 +68,7 @@ const Review = ({ review }) => {
                         </svg>
                     </div>
                 </div>
+
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
                     {name}
                 </h2>
