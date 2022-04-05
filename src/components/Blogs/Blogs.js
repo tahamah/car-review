@@ -14,7 +14,7 @@ const Blogs = () => {
                             />
                         </div>
                         <div className="lg:w-2/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
+                            <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">
                                 WHAT IS CONTEXT API?
                             </h1>
                             <p className="leading-relaxed">
@@ -46,25 +46,18 @@ const Blogs = () => {
                             />
                         </div>
                         <div className="lg:w-2/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
+                            <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">
                                 WHAT IS SEMANTIC TAG ?
                             </h1>
                             <p className="leading-relaxed">
-                                With an extraordinary win for Cetilar Racing's
-                                488 GT3 Evo 2020 and third place for AF Corse's
-                                Ferrari, the GTD class podium at the 70th
-                                Sebring 12 Hours, the second round of the IMSA,
-                                once again celebrated the colours of the
-                                Prancing Horse. GTD. In the class with the
-                                highest number of teams at the start, the team
-                                formed by Roberto Lacorte, Giorgio Sernagiotto
-                                and Antonio Fuoco, despite a race full of
-                                episodes that risked compromising the final
-                                outcome, took first place under the chequered
-                                flag. The star of the race was Antonio Fuoco who
-                                kept an extraordinary pace in each stint, as
-                                underlined by the fastest lap of the race in the
-                                entire GT class with a
+                                Semantic means meaningful anything that has a
+                                meaning. So,Semantic tag means The tag that has
+                                a meaning. For example, If we use a div tag in
+                                the header, that is correct but not meaningful.
+                                But if we use header tag in the header that
+                                bears a meaning, We understand easily that it is
+                                the head of the website.Semantic tags made the
+                                code easily understandable.
                                 <spam className="font-bold"> See More...</spam>
                             </p>
                         </div>
@@ -82,25 +75,22 @@ const Blogs = () => {
                             />
                         </div>
                         <div className="lg:w-2/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-                                WHAT IS CONTEXT API?
+                            <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">
+                                WHAT IS THE DIFFERENCE BETWEEN INLINE,BLOCK AND
+                                INLINE-BLOCK ELEMENT ?
                             </h1>
                             <p className="leading-relaxed">
-                                With an extraordinary win for Cetilar Racing's
-                                488 GT3 Evo 2020 and third place for AF Corse's
-                                Ferrari, the GTD class podium at the 70th
-                                Sebring 12 Hours, the second round of the IMSA,
-                                once again celebrated the colours of the
-                                Prancing Horse. GTD. In the class with the
-                                highest number of teams at the start, the team
-                                formed by Roberto Lacorte, Giorgio Sernagiotto
-                                and Antonio Fuoco, despite a race full of
-                                episodes that risked compromising the final
-                                outcome, took first place under the chequered
-                                flag. The star of the race was Antonio Fuoco who
-                                kept an extraordinary pace in each stint, as
-                                underlined by the fastest lap of the race in the
-                                entire GT class with a
+                                Inline elements occupy only sufficient width
+                                that is required and doesn't have top and bottom
+                                margins. Inline elements don't start in a new
+                                line. But Block Elements occupy the full width
+                                irrespective of their sufficiency and having top
+                                and bottom margin. Block elements always start
+                                in a line. And the third is Inline-Block. It is
+                                a block-level element but it works as an inline
+                                element. As it doesn't occupy the full width,
+                                doesn't have top and bottom margin and doesn't
+                                start in a new line.
                                 <spam className="font-bold"> See More...</spam>
                             </p>
                         </div>
