@@ -29,8 +29,8 @@ const Blogs = () => {
                                 to child to parent, and so on. However, Context
                                 API solved this boring passing props grandparent
                                 to child to parent. It was very irritative.
-                                <spam className="font-bold"> See More...</spam>
                             </p>
+                            <p className="font-bold"> See More...</p>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Blogs = () => {
                     <div className="lg:w-4/5 mx-auto md:flex justify-center items-center">
                         <div className="lg:w-1/3">
                             <img
-                                alt="ecommerce"
+                                alt="e-commerce"
                                 className="  object-cover object-center  rounded"
                                 src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/html5_sectioning_high_level.jpg"
                             />
@@ -58,8 +58,8 @@ const Blogs = () => {
                                 bears a meaning, We understand easily that it is
                                 the head of the website.Semantic tags made the
                                 code easily understandable.
-                                <spam className="font-bold"> See More...</spam>
                             </p>
+                            <p className="font-bold"> See More...</p>
                         </div>
                     </div>
                 </div>
@@ -91,8 +91,8 @@ const Blogs = () => {
                                 element. As it doesn't occupy the full width,
                                 doesn't have top and bottom margin and doesn't
                                 start in a new line.
-                                <spam className="font-bold"> See More...</spam>
                             </p>
+                            <p className="font-bold"> See More...</p>
                         </div>
                     </div>
                 </div>

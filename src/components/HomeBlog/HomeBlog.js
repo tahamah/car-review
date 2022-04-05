@@ -3,7 +3,8 @@ let picture =
     'https://api.ferrari.com/cms/network/medias//resize/6245832fad8c7d2af3d9fb64?apikey=9QscUiwr5n0NhOuQb463QEKghPrVlpaF&width=530&height=597'
 
 let price = '$335,000'
-const heandelPrice = (color) => {
+const handelPrice = (color) => {
+    console.log(color)
     if (color === 'red') {
         price = '$335,000'
     } else if (color === 'blue') {
@@ -13,17 +14,6 @@ const heandelPrice = (color) => {
     }
     return price
 }
-
-// const hendelImg = (prams) => {
-//     if (prams === 'blue') {
-//         picture =
-//             'https://api.ferrari.com/cms/network/medias//resize/62376c1e6b7603599e37e31e-2022-ferrari-imsa-12h-sebring-gtw-2?apikey=9QscUiwr5n0NhOuQb463QEKghPrVlpaF&width=530&height=597'
-//     } else {
-//         picture =
-//             'https://api.ferrari.com/cms/network/medias//resize/6245832fad8c7d2af3d9fb64?apikey=9QscUiwr5n0NhOuQb463QEKghPrVlpaF&width=530&height=597'
-//     }
-//     console.log(picture)
-// }
 
 const HomeBlog = () => {
     return (
@@ -156,15 +146,15 @@ const HomeBlog = () => {
                             <div className="flex">
                                 <span className="mr-3">Color</span>
                                 <button
-                                    onClick={() => heandelPrice('white')}
+                                    onClick={() => handelPrice('white')}
                                     className="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"
                                 ></button>
                                 <button
-                                    onClick={() => heandelPrice('red')}
+                                    onClick={() => handelPrice('red')}
                                     className="border-2 border-gray-300 ml-1 bg-red-600 rounded-full w-6 h-6 focus:outline-none"
                                 ></button>
                                 <button
-                                    onClick={() => heandelPrice('blue')}
+                                    onClick={() => handelPrice('blue')}
                                     className="border-2 border-gray-300 ml-1 bg-blue-500 rounded-full w-6 h-6 focus:outline-none"
                                 ></button>
                             </div>
