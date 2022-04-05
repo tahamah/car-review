@@ -43,7 +43,7 @@ const DashBoard = () => {
                     Two Level PieChart
                 </h1>
             </div>
-            <div className="m-6">
+            <div className="m-6 hidden md:block">
                 <SpecifiedDomainRadarChart></SpecifiedDomainRadarChart>
                 <h1
                     className="text-gray-500 text-3xl text-center

@@ -6,7 +6,7 @@ export default function StackedAreaChart() {
     const [chartData] = useChartData()
     return (
         <AreaChart
-            width={500}
+            width={370}
             height={250}
             data={chartData}
             margin={{

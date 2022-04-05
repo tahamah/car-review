@@ -13,7 +13,7 @@ export default function ChartBar() {
     const [chartData] = useChartData()
     return (
         <BarChart
-            width={500}
+            width={370}
             height={300}
             data={chartData}
             margin={{

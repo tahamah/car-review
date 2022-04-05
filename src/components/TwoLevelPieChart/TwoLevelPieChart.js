@@ -5,7 +5,7 @@ import useChartData from '../../hooks/useChartData'
 export default function TwoLevelPieChart() {
     const [chartData] = useChartData()
     return (
-        <PieChart width={400} height={400}>
+        <PieChart width={370} height={400}>
             <Tooltip />
             <Pie
                 data={chartData}
