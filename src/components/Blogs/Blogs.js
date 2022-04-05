@@ -18,21 +18,17 @@ const Blogs = () => {
                                 WHAT IS CONTEXT API?
                             </h1>
                             <p className="leading-relaxed">
-                                With an extraordinary win for Cetilar Racing's
-                                488 GT3 Evo 2020 and third place for AF Corse's
-                                Ferrari, the GTD class podium at the 70th
-                                Sebring 12 Hours, the second round of the IMSA,
-                                once again celebrated the colours of the
-                                Prancing Horse. GTD. In the class with the
-                                highest number of teams at the start, the team
-                                formed by Roberto Lacorte, Giorgio Sernagiotto
-                                and Antonio Fuoco, despite a race full of
-                                episodes that risked compromising the final
-                                outcome, took first place under the chequered
-                                flag. The star of the race was Antonio Fuoco who
-                                kept an extraordinary pace in each stint, as
-                                underlined by the fastest lap of the race in the
-                                entire GT class with a
+                                Context API is a feature of React that allows
+                                one to share state across the entire app lightly
+                                and with ease. Context API has a super power, We
+                                can share sate any component without props
+                                drilling. That is really amazing. Behind the
+                                scene, it's works as a global variable that can
+                                be passed around.This is the alternative to
+                                "prop drilling" or moving props from grandparent
+                                to child to parent, and so on. However, Context
+                                API solved this boring passing props grandparent
+                                to child to parent. It was very irritative.
                                 <spam className="font-bold"> See More...</spam>
                             </p>
                         </div>
